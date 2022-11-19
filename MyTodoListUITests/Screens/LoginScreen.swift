@@ -12,7 +12,7 @@ class LoginScreen: BaseScreen {
     
     private lazy var loginButton = app.buttons["loginScreenLoginButton"].firstMatch
     
-    private lazy var loginError = app.alerts.staticTexts["Username cannot be empty"].firstMatch
+    private lazy var loginError = app.staticTexts["Username cannot be empty"].firstMatch
         
     func tapCreateButton() {
             createAccountButton.tap()
